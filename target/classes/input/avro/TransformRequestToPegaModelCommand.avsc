@@ -1,0 +1,15 @@
+{
+  "namespace": "ru.sberbank.pegas.hokkaido.integration.createdeal.generation.kafka.avro.command",
+  "type": "record",
+  "name": "TransformRequestToPegaModel",
+  "fields": [
+    {
+      "name": "dealId",
+      "type": "string"
+    },
+    {
+      "name": "correlationId",
+      "type": "string"
+    }
+  ]
+}
